@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Datatype", monospace;
+}
+
+header {
+    text-align: center;
+    background-color: #1e1e1e; 
+    padding: 15 px 0;
+
+}
+
+a{
+    padding: 20px; 
+    margin: 0 px;
+    front-size: 18px ;
+    color: #fff ;
+    text-decoration: none ;
+    font-weight: 500 ;
+
+}
+a i {
+    font-size: 18px ;
+    margin-right: 10px;
+    font-family: "Fjalla One", sans-serif;
+}
+
+img{ 
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+
+div{
+    text-align: center;
+}
+div img{
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+    
+}
+
+
+h1 {
+    width: 100%;
+    height: 500px;
+    color: #a71126;
+    object-fit: contain;
+    margin: 40px 0 30px;
+
+}
+
+h2 {
+    font-size: 32px ;
+    margin-right:rgb(6, 248, 208);
+    margin: 50px 40px 30px;
+   
+}
+
+p { 
+    margin:20px 40px;
+    font-size: 18px;
+    font-family: "Fjalla One", sans-serif;
+}
