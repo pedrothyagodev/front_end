@@ -1,0 +1,40 @@
+.container{
+    display:flex;
+}
+
+#modelo-1{
+    flex-direction: column;
+    justify-content: center;
+}
+
+#modelo-2{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#modelo-3{
+    flex-direction: row-reverse;
+    justify-content: flex-center;
+}
+
+#modelo-4{
+    /* BETWEEN - Espaçamento baseado nas extremidades */
+    /* justify-content: space-between; */
+
+    /* AROUND - Espaçamento central é maior que das extremidades */
+    /*justify-content: space-around; */
+    
+    /* EVENLY - Espaçamento igual entre os itens e as extremidades */
+    /*justify-content: space-evenly */
+    
+    justify-content: space-between;
+    /* justify-content: space-around;
+    justify-content: space-evenly; */
+}
+
+#modelo-5 {
+    /*align-items:flex-start; */
+    /*align-items:flex-end; */
+    align-items: center;
+}
